@@ -1,30 +1,17 @@
-CASTLE TECH - DIGITAL BUSINESS CARD
-
-Profile:
-Name: Castle Tech
-Business: Laptop, Computer and Printer Sale and Service Center
-Email: castleit2010@gmail.com
-Phone 1: +959420208006
-Phone 2: +959790445070
-Viber: +959790445070
-Facebook: supplied share URL
-TikTok: @castle.tech0
-Location: supplied Google Maps URL
+CASTLE TECH DIGITAL BUSINESS CARD - LOGO UPDATE
 
 Files:
 - index.html
 - style.css
 - script.js
+- castle-tech-logo.jpg
 
-Publish with GitHub Pages:
-1. Upload the three files to a GitHub repository.
-2. Open Settings > Pages.
-3. Select Deploy from a branch, branch main, folder /(root), then Save.
-4. Open the published GitHub Pages URL. QR code is generated from the live page URL.
-5. Test both phone buttons, Viber (with Viber installed), email, Facebook, TikTok, Maps and QR code.
+To update your existing GitHub Pages site:
+1. Open your repository: Castle-Tech.MM
+2. Choose Add file > Upload files.
+3. Upload all four files from this folder to the repository root.
+4. If GitHub says files already exist, allow replacing/overwriting the existing index.html, style.css and script.js.
+5. Commit changes to the main branch.
+6. Wait 1-3 minutes, then refresh https://castleit2010-blip.github.io/Castle-Tech.MM/
 
-Notes:
-- The supplied Facebook URL is a share link. If it does not publicly open the Castle Tech Page, replace it with the Page's direct URL.
-- The supplied Google Maps link is used as provided.
-- This is a static card with no admin login/database. Public visitors can see contact details.
-- Replace the Facebook share URL in script.js if you later obtain the direct Page URL.
+Important: keep castle-tech-logo.jpg in the same root folder as index.html.
