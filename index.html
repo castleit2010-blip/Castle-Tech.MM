@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="my">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10243a">
+  <meta name="description" content="Castle Tech - Laptop, Computer and Printer Sale and Service Center">
+  <title>Castle Tech | Digital Business Card</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <span class="brand">CASTLE TECH</span>
+    <button id="langBtn" class="lang" type="button">English</button>
+  </header>
+  <main class="wrap">
+    <section class="card">
+      <div class="avatar">CASTLE<br>TECH</div>
+      <p class="eyebrow" data-my="နည်းပညာနှင့် ကွန်ပျူတာဝန်ဆောင်မှု" data-en="TECHNOLOGY & COMPUTER SERVICES">နည်းပညာနှင့် ကွန်ပျူတာဝန်ဆောင်မှု</p>
+      <h1 id="personName">Castle Tech</h1>
+      <p id="jobTitle" class="job">Laptop, Computer and Printer Sale and Service Center</p>
+      <p id="bio" class="bio">မင်္ဂလာပါ။ Castle Tech မှ ကြိုဆိုပါတယ်။ Laptop၊ Computer နှင့် Printer အရောင်းနှင့် ဝန်ဆောင်မှုများအတွက် ဆက်သွယ်နိုင်ပါတယ်။</p>
+      <div class="actions">
+        <a class="action primary" id="callPrimary" href="tel:+959420208006" data-my="ဖုန်းခေါ်ရန် (၁)" data-en="Call (1)">ဖုန်းခေါ်ရန် (၁)</a>
+        <a class="action" id="callSecondary" href="tel:+959790445070" data-my="ဖုန်းခေါ်ရန် (၂)" data-en="Call (2)">ဖုန်းခေါ်ရန် (၂)</a>
+        <a class="action" id="emailLink" href="mailto:castleit2010@gmail.com" data-my="အီးမေးလ်ပို့ရန်" data-en="Send email">အီးမေးလ်ပို့ရန်</a>
+        <button class="action" id="saveContact" type="button" data-my="Contact သိမ်းရန်" data-en="Save contact">Contact သိမ်းရန်</button>
+      </div>
+      <div class="socials">
+        <a id="facebookPageLink" href="https://www.facebook.com/share/1LUDsadQR4/" target="_blank" rel="noopener">Facebook Page</a>
+        <a id="viberLink" href="viber://chat?number=%2B959790445070">Viber</a>
+        <a id="tiktokLink" href="https://www.tiktok.com/@castle.tech0?_r=1&_t=ZS-9B6IDW8369c" target="_blank" rel="noopener">TikTok</a>
+        <a id="mapLink" href="https://maps.app.goo.gl/RQjyYP7TB1MJGGAf7" target="_blank" rel="noopener">Location / Map</a>
+      </div>
+      <div class="qr-area">
+        <h2 data-my="ကျွန်ုပ်တို့၏ QR Code" data-en="Our QR Code">ကျွန်ုပ်တို့၏ QR Code</h2>
+        <div id="qrcode"></div>
+        <p data-my="ဒီ QR Code ကို Scan လုပ်ပြီး Castle Tech ၏ Digital Business Card ကို ကြည့်နိုင်ပါတယ်။" data-en="Scan this code to open Castle Tech's digital business card.">ဒီ QR Code ကို Scan လုပ်ပြီး Castle Tech ၏ Digital Business Card ကို ကြည့်နိုင်ပါတယ်။</p>
+      </div>
+    </section>
+    <footer>© <span id="year"></span> Castle Tech</footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
